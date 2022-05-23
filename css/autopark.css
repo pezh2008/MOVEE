@@ -1,0 +1,145 @@
+.autopark {
+}
+.autopark__contaner {
+  max-width: 82rem;
+  margin: 0 auto;
+}
+.autopark__title {
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.9rem;
+  line-height: 2.3rem;
+  margin: 0 0 0.5rem 0; 
+}
+.autopark__subtitle {
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.7rem;
+  margin: 0 0 3.1rem 0;
+}
+.autopark__nemu {
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+  margin: 0 0 2.8rem 0;
+}
+.autopark__truke {
+  padding: 0.9rem 4rem;
+  border: 1px solid var(--black);
+}
+.autopark__truke:hover {
+  border: 1px solid var(--yellow);
+}
+.autopark__contener {
+  display: flex;
+  justify-content: center;
+}
+.autopark__vector{
+  display: flex;
+  align-items: center;
+}
+#vector-left{
+  display: flex;
+  align-items: center;
+  margin: 0 3rem 0 0;
+}
+#vector-right{
+  display: flex;
+  align-items: center;
+}
+.autopark__block {
+  display: flex;
+}
+.autopark__block-characteristic {
+  display: flex;
+  align-items: center;
+  margin: 0 7rem 0 0;
+}
+.autopark__characteristic {
+  
+}
+.autopark__characteristic-title {
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.9rem;
+  margin: 0 0 2.3rem 0;
+}
+.autopark__characteristic-list {
+}
+.autopark__characteristic-lis {
+  display: flex;
+  margin: 0 0 1.75rem 0;
+  gap: 1rem;
+}
+.autopark__characteristic-img {
+  display: block;
+}
+.autopark__characteristic-text {
+}
+.autopark__characteristic-buttom {
+  border: 1px solid var(--black);
+  padding: 0.8rem 4.9rem;
+  background-color: var(--yellow);
+}
+.autopark__img {
+}
+.autopark__adaptiv-text {
+  display: none;
+}
+.autopark__adaptiv-buttom {
+  display: none;
+}
+
+@media (max-width: 1100px) {
+  .autopark__block-characteristic {
+    display: none;
+  }
+  .autopark__img {
+    max-width: 100%;
+  }
+  .autopark__truke {
+   border: none;
+  }
+  .autopark__truke:hover {
+    border: none;
+    text-decoration: underline var(--yellow);
+  }
+  .autopark__nemu {
+    gap: 0;
+  }
+  #vector-left {
+    margin: 0 0 0 0;
+  } 
+  .autopark__adaptiv-text {
+    display: block;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    margin: 0 0 2.5rem 0;
+  }
+  .autopark__adaptiv-buttom {
+    display: block;
+    text-align: center;
+    
+  }
+  .autopark__adaptiv-buttom span {
+    display: inline-block;
+    border: 1px solid var(--black);
+    padding: 0.8rem 4.9rem;
+    background-color: var(--yellow);
+  }
+}
+@media(max-width: 520px){
+  .autopark__contaner{
+    padding: 0 1rem;
+  }
+  .autopark__nemu{
+    gap: 2.1rem;
+  }
+  .autopark__truke {
+    padding: 0;
+  }
+}
+
