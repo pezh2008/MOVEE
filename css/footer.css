@@ -1,0 +1,123 @@
+.footer {
+  background: var(--yellow);
+  padding: 6.2rem 0;
+}
+.footer__contaner {
+  max-width: 82rem;
+  margin: 0 auto;
+}
+.footer__content {
+  max-width: 60rem;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__privat {
+  max-width: 240px;
+}
+.footer__logo {
+  font-weight: 600;
+  font-size: 1.9rem;
+  line-height: 2.2rem;
+  margin: 0 0 2rem 0;
+}
+.footer__text {
+  cursor: pointer;
+  margin: 0 0 2rem 0;
+}
+.footer__text-privat{
+  cursor: pointer;
+  
+}
+.footer__nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer__li {
+}
+.footer__callback {
+  
+
+}
+.footer__buttom{
+  display: flex;
+  justify-content: center;
+  margin: 0 0 0.5rem 0;
+}
+.footer__buttom  span {
+  border: 1px solid var(--black);
+  padding: 0.6rem 1.9rem;
+}
+.footer__number {
+  display: flex;
+  justify-content: center;
+  margin: 0 0 1.5rem 0;
+}
+.footer__number span{
+  border-bottom: 1px solid var(--black);
+}
+.footer__social {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 4rem;
+}
+.footer__img {
+  cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+  .footer__contaner{
+    display: flex;
+    justify-content: center;
+  }
+  .footer__content{
+    display: flex;
+    flex-direction: column;
+  }
+  .footer__privat{
+    margin: 0 auto;
+  }
+  .footer__logo{
+    text-align: center;
+  }
+  .footer__text{
+    text-align: center;
+  }
+  .footer__text-privat{ 
+    text-align: center;
+    margin: 0 0 1rem 0;
+  }
+  .footer__nav{
+    text-align: center;
+  }
+  .footer__li {
+    margin: 0 0 1rem 0;
+  }
+  .footer__callback{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .footer__social{
+    display: flex;
+    gap: 2rem;
+    margin: 0 auto;
+    padding: 0 0 1rem 0;
+  }
+  .footer__buttom span {
+    font-weight: 500;
+    font-size: 1.9rem;
+    line-height: 2.2rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .footer__buttom span{
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+  }
+   .footer__img {
+    width: 18px;
+    height: 18px;
+   }
+}

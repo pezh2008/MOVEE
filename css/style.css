@@ -3,6 +3,12 @@
 @import url(./price.css);
 @import url(./autopark.css);
 @import url(./reviews.css);
+@import url(./discount.css);
+@import url(./payment.css);
+@import url(./services.css);
+@import url(./watch.css);
+@import url(./maps.css);
+@import url(./footer.css);
 
 *,
 *::before,

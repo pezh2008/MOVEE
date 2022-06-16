@@ -1,0 +1,24 @@
+.maps{
+  height: 40rem;
+}
+.maps iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.maps__text {
+  display: none;
+}
+.maps__title {
+}
+.maps__number {
+}
+.maps__mail {
+}
+
+/* @media(max-width: 760px){
+  .maps__text{
+    display: block;
+    background: var(--white);
+  }
+} */

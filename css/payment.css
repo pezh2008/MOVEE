@@ -1,0 +1,57 @@
+.payment {
+  margin: 0 0 4rem 0;
+}
+.payment__title {
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  margin: 0 0 2rem 0;
+}
+.payment__radio {
+  display: flex;
+  justify-content: space-between;
+
+}
+.payment__box {
+  display: flex;
+  align-items: center;
+}
+.payment__input-radio {
+  appearance: none;
+  -webkit-appearance: none;
+}
+.paymant__input-box {
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 2px solid var(--black);
+  border-radius: 50%;
+  margin: 0 1rem 0 0;
+  position: relative;
+}
+.paymant__input-box::before {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.payment__input-radio:checked ~ .paymant__input-box::before{
+  background-color: var(--yellow);
+}
+.payment__input-radio:checked ~ .paymant__input-box{
+  border-color:  var(--yellow);
+}
+.payment__cash {
+}
+.payment__bank {
+}
+
+
+@media(max-width: 760px){
+  .payment {
+    display: none;
+  }
+}

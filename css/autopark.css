@@ -3,6 +3,7 @@
 .autopark__contaner {
   max-width: 82rem;
   margin: 0 auto;
+  padding: 0 0 3rem 0;
 }
 .autopark__title {
   text-align: center;
@@ -132,6 +133,9 @@
   }
 }
 @media(max-width: 520px){
+  .autopark{
+    padding: 3rem 0;
+  }
   .autopark__contaner{
     padding: 0 1rem;
   }

@@ -219,5 +219,7 @@
   .banner__icon{
     display: none;
   }
-  
+  .banner {
+    margin: 0 auto;
+  }
 }

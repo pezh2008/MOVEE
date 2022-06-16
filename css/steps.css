@@ -106,3 +106,17 @@
     padding: 0 1rem;
   }
 }
+
+
+@media (max-width:400px) {
+  .steps {
+    margin: 0 auto;
+    padding: 3rem 0;
+  }
+  .step {
+    margin: 0 auto;
+  }
+  .step__title{
+    text-align: left;
+  }
+}

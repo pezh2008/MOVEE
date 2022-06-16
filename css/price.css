@@ -100,7 +100,7 @@
   }
   .price__info{
     border: none;
-    padding: 2rem 0 7rem 0 ;
+    padding: 2rem 0;
   }
   .price__money{
     margin: 0 0 1rem 0;
@@ -136,3 +136,8 @@
 }
 
 
+@media (max-width:450px) {
+  .price {
+    margin: 0 auto;
+  }
+}
