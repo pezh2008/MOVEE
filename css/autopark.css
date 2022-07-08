@@ -1,5 +1,4 @@
-.autopark {
-}
+
 .autopark__contaner {
   max-width: 82rem;
   margin: 0 auto;
@@ -10,7 +9,7 @@
   font-weight: 600;
   font-size: 1.9rem;
   line-height: 2.3rem;
-  margin: 0 0 0.5rem 0; 
+  margin: 0 0 0.5rem 0;
 }
 .autopark__subtitle {
   text-align: center;
@@ -36,16 +35,17 @@
   display: flex;
   justify-content: center;
 }
-.autopark__vector{
+
+.autopark__vector {
   display: flex;
   align-items: center;
 }
-#vector-left{
+#vector-left {
   display: flex;
   align-items: center;
   margin: 0 3rem 0 0;
 }
-#vector-right{
+#vector-right {
   display: flex;
   align-items: center;
 }
@@ -57,16 +57,11 @@
   align-items: center;
   margin: 0 7rem 0 0;
 }
-.autopark__characteristic {
-  
-}
 .autopark__characteristic-title {
   font-weight: 600;
   font-size: 1.5rem;
   line-height: 1.9rem;
   margin: 0 0 2.3rem 0;
-}
-.autopark__characteristic-list {
 }
 .autopark__characteristic-lis {
   display: flex;
@@ -76,14 +71,10 @@
 .autopark__characteristic-img {
   display: block;
 }
-.autopark__characteristic-text {
-}
 .autopark__characteristic-buttom {
   border: 1px solid var(--black);
   padding: 0.8rem 4.9rem;
   background-color: var(--yellow);
-}
-.autopark__img {
 }
 .autopark__adaptiv-text {
   display: none;
@@ -91,7 +82,6 @@
 .autopark__adaptiv-buttom {
   display: none;
 }
-
 @media (max-width: 1100px) {
   .autopark__block-characteristic {
     display: none;
@@ -100,7 +90,7 @@
     max-width: 100%;
   }
   .autopark__truke {
-   border: none;
+    border: none;
   }
   .autopark__truke:hover {
     border: none;
@@ -111,7 +101,7 @@
   }
   #vector-left {
     margin: 0 0 0 0;
-  } 
+  }
   .autopark__adaptiv-text {
     display: block;
     text-align: center;
@@ -123,7 +113,7 @@
   .autopark__adaptiv-buttom {
     display: block;
     text-align: center;
-    
+
   }
   .autopark__adaptiv-buttom span {
     display: inline-block;
@@ -132,14 +122,14 @@
     background-color: var(--yellow);
   }
 }
-@media(max-width: 520px){
-  .autopark{
+@media(max-width: 520px) {
+  .autopark {
     padding: 3rem 0;
   }
-  .autopark__contaner{
+  .autopark__contaner {
     padding: 0 1rem;
   }
-  .autopark__nemu{
+  .autopark__nemu {
     gap: 2.1rem;
   }
   .autopark__truke {
@@ -147,3 +137,13 @@
   }
 }
 
+
+
+
+.autopark__contaner-pickup {
+  display: none;
+}
+
+.autopark__contaner-truck {
+  display: none;
+}

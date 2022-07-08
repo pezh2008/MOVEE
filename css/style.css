@@ -9,6 +9,7 @@
 @import url(./watch.css);
 @import url(./maps.css);
 @import url(./footer.css);
+@import url(./check.css);
 
 *,
 *::before,
@@ -62,4 +63,8 @@ body {
 
 .wrapper {
     overflow: hidden;
+}
+
+.yellow {
+    color: yellow;
 }
