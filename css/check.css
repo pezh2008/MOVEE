@@ -1,0 +1,19 @@
+.check {
+}
+.check__block {
+  max-width: 82rem;
+  margin: 0 auto;
+}
+.check__title {
+  text-align: center;
+  font-size: 3rem;
+  visibility: visible;
+}
+.check__text {
+  visibility: visible;
+  text-align: center;
+  color:  var(--red);
+  font-size: 2rem;
+  border: 1px solid var(--yellow);
+  background: greenyellow;
+}
