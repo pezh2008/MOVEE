@@ -77,8 +77,9 @@
   display: none;
 }
 .reviews__more{
-  display: none
+  display: none;
 }
-.more {
+
+.morem {
   display: block;
 }

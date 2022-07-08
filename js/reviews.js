@@ -19,31 +19,17 @@ function hidden() {
 }
 hidden();
 
-function dots() {
-  let dots = document.querySelector("#reviews__dots");
-  let more = document.querySelector("#reviews__more");
-  let reviewsfulli = document.querySelector("#reviews__fulli");
+function dots1() {
+  let dots = document.querySelector(".reviews__dots");
+  let more = document.querySelector(".reviews__more");
+  let reviewsfulli = document.querySelector(".reviews__fulli");
 
   reviewsfulli.addEventListener("click", () => {
     dots.classList.toggle("hidden");
-    more.classList.toggle("more");
+    more.classList.toggle("morem");
   });
 }
-dots();
+dots1();
 
-function autopark() {
-  let van = document.querySelector("#van");
-  let pickup = document.querySelector("#pickup");
-  let truck = document.querySelector("#truck");
-  let gazel = document.querySelector(".autopark__truke-gazel");
-  let kabluck = document.querySelector(".autopark__truke-kabluck");
-  let gruzovick = document.querySelector(".autopark__truke-gruzovik");
-  let vectorleft = document.querySelector("#vector-left");
-  let vectorright = document.querySelector("#vector-right");
 
-  gazel.addEventListener("click", () => {
-    van.classList.toggle("hidden");
-    truck.classList.toggle("more");
-  });
-}
-autopark();
+

@@ -31,6 +31,12 @@
 .autopark__truke:hover {
   border: 1px solid var(--yellow);
 }
+.autopark__item{
+  display: flex;
+  max-width: 70rem;
+  overflow: hidden;
+  justify-content: center;
+}
 .autopark__contener {
   display: flex;
   justify-content: center;
@@ -138,12 +144,3 @@
 }
 
 
-
-
-.autopark__contaner-pickup {
-  display: none;
-}
-
-.autopark__contaner-truck {
-  display: none;
-}
