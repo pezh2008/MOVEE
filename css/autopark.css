@@ -4,6 +4,7 @@
   max-width: 82rem;
   margin: 0 auto;
   padding: 0 0 3rem 0;
+  position: relative;
 }
 .autopark__title {
   text-align: center;
@@ -35,20 +36,13 @@
 .autopark__contener {
   display: flex;
   justify-content: center;
+
 }
 .autopark__vector{
   display: flex;
   align-items: center;
 }
-#vector-left{
-  display: flex;
-  align-items: center;
-  margin: 0 3rem 0 0;
-}
-#vector-right{
-  display: flex;
-  align-items: center;
-}
+
 .autopark__block {
   display: flex;
 }
@@ -90,6 +84,16 @@
 }
 .autopark__adaptiv-buttom {
   display: none;
+}
+
+#vector-right {
+ position: absolute;
+ top: 50%;
+}
+#vector-left {
+  position: absolute;
+  right: 0;
+  top: 50%;
 }
 
 @media (max-width: 1100px) {
